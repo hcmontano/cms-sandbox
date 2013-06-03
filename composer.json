@@ -25,7 +25,7 @@
         "jms/serializer-bundle": "0.12.*",
 
         "doctrine/orm": ">=2.2.3,<2.4-dev",
-        "doctrine/doctrine-bundle": ">=2.1",
+        "doctrine/doctrine-bundle": "*",
         "doctrine/doctrine-migrations-bundle": "dev-master",
         "doctrine/migrations": "dev-master",
         "doctrine/doctrine-fixtures-bundle": "2.1.*@dev",
