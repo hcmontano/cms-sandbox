@@ -64,7 +64,7 @@
         "friendsofsymfony/jsrouting-bundle": "dev-master",
         "friendsofsymfony/rest-bundle": "dev-master",
 
-        "kriswallsmith/assetic": "1.2.*@dev",
+        "kriswallsmith/assetic": "1.1.*",
         "kriswallsmith/buzz": "0.7.*",
 
         "liip/imagine-bundle": "0.9.*@stable",
