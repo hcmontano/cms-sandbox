@@ -68,7 +68,7 @@
         "kriswallsmith/buzz": "0.7.*",
 
         "liip/imagine-bundle": "0.9.*@stable",
-        "liip/monitor-bundle": "0.5.*",
+        "liip/monitor-bundle": "1.0.*@dev",
 
         "rmzamora/jquery-bundle": "1.9.*@dev",
         "rmzamora/bootstrap-bundle": "2.3.*@dev",
