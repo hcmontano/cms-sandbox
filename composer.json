@@ -72,12 +72,11 @@
 
         "rmzamora/jquery-bundle": "1.9.*@dev",
         "rmzamora/bootstrap-bundle": "2.3.*@dev",
+        "rmzamora/entity-audit-bundle": "0.*@dev",
 
         "dflydev/markdown": "1.0.2",
-        "rmzamora/entity-audit-bundle": "0.*@dev",
         "willdurand/faker-bundle": "dev-master",
         "videlalvaro/php-amqplib"  : "dev-master",
-        "ornicar/apc-bundle": "dev-master",
         "jms/command-bundle": "dev-master"
     },
 

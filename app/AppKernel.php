@@ -5,13 +5,13 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 
 class AppKernel extends Kernel
 {
-    public function init()
-    {
-        // Please read http://symfony.com/doc/2.0/book/installation.html#configuration-and-setup
-        umask(0002);
-
-        parent::init();
-    }
+//    public function init()
+//    {
+//        // Please read http://symfony.com/doc/2.0/book/installation.html#configuration-and-setup
+//        umask(0002);
+//
+//        parent::init();
+//    }
 
     public function registerBundles()
     {
@@ -67,12 +67,13 @@ class AppKernel extends Kernel
             new Sonata\BlockBundle\SonataBlockBundle(),
             new Sonata\SeoBundle\SonataSeoBundle(),
             new Sonata\NotificationBundle\SonataNotificationBundle(),
+            new Application\Sonata\NotificationBundle\ApplicationSonataNotificationBundle(),
 
             // Enable this if you want to audit backend action
             new SimpleThings\EntityAudit\SimpleThingsEntityAuditBundle(),
 
             //CMF Router
-            new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
+            new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
 
             //FOS
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
@@ -83,7 +84,6 @@ class AppKernel extends Kernel
             new JMS\CommandBundle\JMSCommandBundle(),
 
             new Liip\MonitorBundle\LiipMonitorBundle(),
-            new Ornicar\ApcBundle\OrnicarApcBundle(),
 
             # Always Load Last
             new Rmzamora\SandboxInitDataBundle\RmzamoraSandboxInitDataBundle(),
@@ -91,6 +91,7 @@ class AppKernel extends Kernel
             new Rmzamora\JqueryBundle\RmzamoraJqueryBundle(),
             new Rz\CkeditorBundle\RzCkeditorBundle(),
             new Rz\CodemirrorBundle\RzCodemirrorBundle(),
+            #new Rz\DemoBundle\RzDemoBundle(),
             new Rz\AdminBundle\RzAdminBundle(),
             new Rz\BlockBundle\RzBlockBundle(),
             new Rz\DoctrineORMAdminBundle\RzDoctrineORMAdminBundle(),
