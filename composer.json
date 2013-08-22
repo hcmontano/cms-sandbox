@@ -22,7 +22,7 @@
 
         "jms/security-extra-bundle": "1.5.*",
         "jms/di-extra-bundle": "1.4.*",
-        "jms/serializer-bundle": "0.12.*",
+        "jms/serializer-bundle": "~0.13",
 
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "*",
@@ -102,7 +102,9 @@
     },
 
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "process-timeout" : 4000,
+        "github-protocols": ["https", "git"]
     },
 
     "minimum-stability": "dev",
