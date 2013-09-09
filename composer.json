@@ -64,11 +64,11 @@
         "rmzamora/rest-bundle": "~1.0",
 
         "rz/formatter-bundle": "2.3.*",
-        "rz/admin-bundle": "2.3.*",
+        "rz/admin-bundle": "~2.3.0",
         "rz/block-bundle": "2.3.*",
-        "rz/user-bundle": "2.3.*",
+        "rz/user-bundle": "~2.3.0",
         "rz/page-bundle": "2.3.*",
-        "rz/media-bundle": "2.3.0",
+        "rz/media-bundle": "~2.3.0",
         "rz/news-bundle": "2.3.*",
         "rz/doctrine-orm-admin-bundle": "2.3.*",
 
@@ -121,8 +121,7 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "branch-alias": {
-            "dev-2.3.1": "2.3.1-dev",
-            "dev-master": "2.4.x-dev"
+            "dev-2.3.1": "2.3.1-dev"
         }
     }
 }
