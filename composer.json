@@ -52,7 +52,7 @@
         "rmzamora/doctrine-orm-admin-bundle": "2.3.*@dev",
 
         "rmzamora/jquery-bundle": "1.10.*@dev",
-        "rmzamora/bootstrap-bundle": "2.3.*@dev",
+        "rmzamora/bootstrap-bundle": "2.3.2",
 
         "rmzamora/news-bundle": "2.3.*@dev",
         "rmzamora/formatter-bundle": "2.3.*@dev",
