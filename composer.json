@@ -25,7 +25,7 @@
         "doctrine/doctrine-bundle": "~1.2",
         "doctrine/doctrine-migrations-bundle": "dev-master",
         "doctrine/migrations": "dev-master",
-        "doctrine/doctrine-fixtures-bundle": "2.1.*@dev",
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
         "doctrine/data-fixtures": "1.0.*@dev",
 
         "jms/security-extra-bundle": "~1.5",
@@ -121,7 +121,7 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "branch-alias": {
-            "dev-2.3.1": "2.3.1-dev"
+            "dev-2.3.1": "2.3.1.x-dev"
         }
     }
 }
