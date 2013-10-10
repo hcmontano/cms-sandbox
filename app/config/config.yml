@@ -15,6 +15,7 @@ imports:
     - { resource: sonata/sonata_cache.yml }
     - { resource: sonata/sonata_seo.yml }
     - { resource: sonata/sonata_user.yml }
+    - { resource: sonata/sonata_classification.yml }
 
     # liip
     - { resource: liip/liip_monitor.yml }
