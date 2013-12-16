@@ -40,6 +40,7 @@ sonata_page:
     templates:
         default: { path: 'RzPageBundle:theme\rzcms:layout.html.twig', name: 'default' }
         rzcms_homepage: { path: 'RzPageBundle:theme\rzcms:homepage.html.twig', name: 'homepage' }
+        rzcms_blog: { path: 'RzPageBundle:theme\rzcms:blog.html.twig', name: 'blog' }
 
     page_defaults:
         homepage: {decorate: false, enabled: true}
