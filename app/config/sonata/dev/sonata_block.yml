@@ -38,6 +38,8 @@ sonata_block:
         rz_media.block.media_bxslider:
         rz_media.block.featured_galleries:
         rz_news.block.featured_posts:
+        rz_news.block.tags:
+        rz_news.block.collection:
 
     exception:
         default:

@@ -50,6 +50,10 @@ sonata_block:
             cache: sonata.cache.memcached
         rz_news.block.featured_posts:
             cache: sonata.cache.memcached
+        rz_news.block.tags:
+            cache: sonata.cache.memcached
+        rz_news.block.collection:
+            cache: sonata.cache.memcached
 
     exception:
         default:
