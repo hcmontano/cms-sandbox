@@ -87,7 +87,8 @@
         "videlalvaro/php-amqplib"  : "dev-master",
         "stof/doctrine-extensions-bundle": "1.1.*",
         "stephpy/TimelineBundle": "2.0.*@dev",
-        "stephpy/timeline": "~1.0@dev"
+        "stephpy/timeline": "~1.0@dev",
+        "white-october/pagerfanta-bundle": "~1.0"
 
 
 

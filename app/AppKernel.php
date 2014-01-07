@@ -91,6 +91,9 @@ class AppKernel extends Kernel
             //HWI
             new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
 
+            //WhiteOctoer
+            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
+
             // QA Bundle
             new Sonata\Bundle\QABundle\SonataQABundle(),
 
