@@ -22,7 +22,8 @@ fos_user_security:
 
 #Sonata Profile Edition
 sonata_user_profile:
-    resource: "@SonataUserBundle/Resources/config/routing/profile.xml"
+    #use oauth controller
+    resource: "@RzOAuthBundle/Resources/config/routing/profile.xml"
     prefix: /profile
 
 fos_user_register:
@@ -51,10 +52,6 @@ sonata_cache_cache:
 
 sonata_page_ajax:
     resource: '@SonataPageBundle/Resources/config/routing/page.xml'
-    prefix: /
-
-sonata_page_cache:
-    resource: '@SonataPageBundle/Resources/config/routing/cache.xml'
     prefix: /
 
 sonata_page_exceptions:
